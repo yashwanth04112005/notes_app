@@ -1,12 +1,44 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive notes-taking web app built using React and Context API. It supports pinning, archiving, marking as important, and deleting notes — all with a clean UI and seamless state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Create and save notes with title and content
+- 📌 Pin/unpin important notes
+- 📂 Archive notes for later
+- ⭐ Mark/unmark notes as important
+- 🗑️ Move notes to bin
+- ♻️ Reusable card component with dynamic icon changes
+- 💾 Data stored using local component state or context
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Context API, HTML, TailwindCSS
+- **Icons**: Google Material Icons
+- **State Management**: useReducer + Context API
+- **(Optional Backend)**: Node.js, Express, MongoDB *(future upgrade)*
+
+---
+
+Setup & Run:
+  
+  
+  
+  Steps:
+    
+    - step: "Clone the Repository"
+      command: "git clone https://github.com/yashwanth04112005/notes-app.git"
+
+    - step: "Navigate into the Project Directory"
+      command: "cd notes-app"
+
+    - step: "Install Dependencies"
+      command: "npm install"
+
+    - step: "Start the Development Server"
+      command: "npm run dev"
